@@ -1,0 +1,25 @@
+# LangChain and LangGraph
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+langgraph>=0.2.0
+
+# MongoDB integration for LangGraph
+langgraph-checkpoint-mongodb>=0.3.0
+langgraph-store-mongodb>=0.1.0
+
+# MongoDB driver
+pymongo>=4.8.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# FastAPI and server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Authentication
+pyjwt>=2.9.0
+
+# Validation
+pydantic[email]>=2.9.0
